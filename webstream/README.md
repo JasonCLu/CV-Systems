@@ -1,9 +1,9 @@
-##The Big Picture:
+## The Big Picture:
 
 WEBCAM -> CV/Image Processing -> HTTPS Website
 
 
-##The Steps and Tools:
+## The Steps and Tools:
 
 1) Get the video stream from the laptop camera (using OpenCV).
 2) Apply object detection on frames from video stream (using OpenCV).
@@ -11,7 +11,7 @@ WEBCAM -> CV/Image Processing -> HTTPS Website
 4) Display processed frames to website (using Python Flask Framework and HTML)
 
 
-##The Required Python Packages:
+## The Required Python Packages:
 
 $ pip install flask
 $ pip install imutils
