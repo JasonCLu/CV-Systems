@@ -119,22 +119,6 @@ def video_feed():	# this function name is the parameter in the html image source
 	return Response(generate(),
 		mimetype = "multipart/x-mixed-replace; boundary=frame")
 
-@app.route("/about1")
-def about():
-    return "<h1 style='color: red;'>I'm a red H1 heading!</h1>"
-
-@app.route("/about2")
-def about2():
-    return """
-    <h1 style='color: red;'>I'm a red H1 heading!</h1>
-    <p>This is a lovely little paragraph</p>
-    <code>Flask is <em>awesome</em></code>
-    """
-'''
-@app.route("/fps")
-def fps():
-	return Reponse
-'''
 # check to see if this is the main thread of execution
 if __name__ == '__main__':
 	# construct the argument parser and parse command line arguments
