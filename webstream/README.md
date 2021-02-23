@@ -1,6 +1,6 @@
 ## The Big Picture:
 
-WEBCAM -> CV/Image Processing -> HTTPS Website
+WEBCAM -> CV/Image Processing -> HTTP Website
 
 
 ## The Steps and Tools:
