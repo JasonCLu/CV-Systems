@@ -6,7 +6,7 @@ WEBCAM -> CV/Image Processing -> HTTP Website
 ## The Steps and Tools:
 
 1) Get the video stream from laptop camera (using OpenCV).
-2) Apply motion detection on frames from video stream (using OpenCV).
+2) Apply (realtime) motion detection on frames from video stream (using OpenCV).
 3) Create a simple website (using Python Flask Framework and HTML).
 4) Display processed frames to website (using Python Flask Framework and HTML)
 
